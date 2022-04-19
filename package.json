@@ -1,0 +1,31 @@
+{
+    "name": "npm-package-name-available",
+    "version": "1.0.0",
+    "description": "Checks if a name is a valid npm package name and if it's available to be used to push a new package to npm.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "exports": {
+        "import": "./wrapper.mjs",
+        "require": "./index.js"
+    },
+    "type": "commonjs",
+    "keywords": [
+        "npm package name available",
+        "package name available",
+        "package available",
+        "name available",
+        "npm package name",
+        "npm package",
+        "available",
+        "npm name",
+        "package",
+        "npm"
+    ],
+    "author": "Kossi D. T. Saka",
+    "license": "MIT",
+    "dependencies": {
+        "validate-npm-package-name": "^4.0.0"
+    }
+}
