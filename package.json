@@ -11,6 +11,14 @@
         "require": "./index.js"
     },
     "bin": "./bin/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kossidts/npm-package-name-available.git"
+    },
+    "homepage": "https://github.com/kossidts/npm-package-name-available#readme",
+    "bugs": {
+        "url": "https://github.com/kossidts/npm-package-name-available/issues"
+    },
     "type": "commonjs",
     "keywords": [
         "npm package name available",
