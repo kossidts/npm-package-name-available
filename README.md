@@ -2,6 +2,15 @@
 
 checks if a name is a valid npm package name **and** if it's available to be used to push a new package to npm.
 
+## Usage without installation
+
+```sh
+$ npx npm-package-name-available name
+
+# Or multiple names at once
+$ npx npm-package-name-available name alt-name alt-name-2 ... alt-name-n
+```
+
 ## Installation
 
 ```bash
