@@ -1,5 +1,7 @@
 # npm-package-name-available
 
+[![License][license-image]][license-url] [![NPM Package Version][npm-image-version]][npm-url] ![GitHub top language][language-image] ![Size][size-image] ![Last Commit][commit-image]
+
 checks if a name is a valid npm package name **and** if it's available to be used to push a new package to npm.
 
 ## Usage without installation
@@ -75,3 +77,23 @@ npm_package_name_available([
 //   { '@kdts/http-status-code': true }
 // ]
 ```
+
+## License
+
+See [LICENSE][license-url].
+
+## Copyright
+
+Copyright &copy; 2022. Kossi D. T. Saka.
+
+[npm-image-version]: https://img.shields.io/npm/v/intval.svg
+[npm-image-downloads]: https://img.shields.io/npm/dm/intval.svg?color=purple
+[npm-url]: https://npmjs.org/package/intval
+[license-image]: https://img.shields.io/github/license/kossidts/intval
+[license-url]: https://github.com/kossidts/intval/blob/master/LICENSE
+[language-image]: https://img.shields.io/github/languages/top/kossidts/intval?color=yellow
+[size-image]: https://img.shields.io/github/repo-size/kossidts/intval?color=light
+[commit-image]: https://img.shields.io/github/last-commit/kossidts/intval
+[actions-url]: https://github.com/kossidts/intval/actions
+[workflow-image]: https://github.com/kossidts/intval/actions/workflows/node.js.yml/badge.svg
+[workflow-image-2]: https://github.com/kossidts/intval/workflows/Node.js%20CI/badge.svg
