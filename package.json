@@ -1,6 +1,6 @@
 {
     "name": "npm-package-name-available",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Checks if a name is a valid npm package name and if it's available to be used to push a new package to npm.",
     "main": "index.js",
     "scripts": {
